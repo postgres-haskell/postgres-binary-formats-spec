@@ -1,5 +1,4 @@
-# postgres-binary-formats-spec
-A binary format specification of PostgreSQL built-in types
+# A binary format specification of PostgreSQL built-in types
 
 ## Numeric
 ```
