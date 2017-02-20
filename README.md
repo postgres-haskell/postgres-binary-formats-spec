@@ -73,5 +73,14 @@ for each column:
 ```
 
 ## Range
-
+```
+word8 - flags(?)
+if has lower bound:
+  word32 - length
+  bytes[n] - encoded lower bound as type
+if has upper bound:
+  word32 - length
+  bytes[n] - encoded upper bound as type
+```
 ## Oid
+``` oid ```
