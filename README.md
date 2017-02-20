@@ -31,7 +31,7 @@ bool - word8(1 for True, 0 for False)
 ```
 
 ## Enum
-TODO
+text[n]
 
 ## Geometric
 
@@ -44,6 +44,11 @@ TODO
 ## XML
 
 ## JSON
+```
+json - text
+jsonb - word8 - 1
+        text
+```
 
 ## Array
 ```
@@ -59,6 +64,13 @@ for each element:
 ```
 
 ## Composite
+```
+word32 - number of columns
+for each column:
+  oid - oid of element
+  word32 - element length
+  bytes[n] - encoded element
+```
 
 ## Range
 
